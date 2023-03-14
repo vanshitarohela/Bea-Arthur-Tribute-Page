@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4f0;
+}
+
+.header {
+    text-align: center;
+    /*of the visible view-width not of the page */
+    margin: auto;
+    width: fit-content;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 0;
+}
+
+.header hr {
+    color: #746355;
+    margin: 0;
+}
+
+.header p {
+    color: #726955;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.image {
+    padding: 2 rem;
+    background-color: #eadccf;
+    align-content: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.image img {
+    width: 80vw;
+    margin: 0;
+    border: 2px solid black;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin-bottom: 1rem;
+}
+
+.image-matter {
+    width: 80vw;
+    margin: auto;
+    color: #726955;
+}
+
+.quote {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    line-height: 1.3rem;
+    /* line height shouls be bigger than font size */
+    font-size: 1.2rem;
+}
+
+.timeline h1 {
+    text-align: center;
+}
+
+.timeline {
+    width: 60vw;
+    margin: auto;
+}
+
+.timeline li {
+    padding: 0.5rem;
+    color: #726955;
+    font-size: 1.2rem;
+}
+
+.timeline h1 {
+    padding: 1.5rem;
+}
